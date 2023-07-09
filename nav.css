@@ -1,10 +1,12 @@
 nav ul {
     display: flex;
+    /* align-items: center; */
    
 }
 ul>li{
     padding-right: 202px ;
     list-style: none;
+    align-items: center;
 
 }
 li>a{
@@ -13,16 +15,22 @@ li>a{
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
+    /* align-items: center; */
+ 
 
 }
 nav{
     background-size: cover;
-    background-color: brown;
+    background-color: brown; 
+    height: 50px;
+    padding-top: 20px;
 }
 a:hover{
     cursor: pointer;
     color: rgb(23, 5, 179);
     background-color: bisque;
+    background-size: 50px;
+   
 }
 *{
     margin: 0px;
