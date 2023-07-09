@@ -1,0 +1,29 @@
+nav ul {
+    display: flex;
+   
+}
+ul>li{
+    padding-right: 202px ;
+    list-style: none;
+
+}
+li>a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+nav{
+    background-size: cover;
+    background-color: brown;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(23, 5, 179);
+    background-color: bisque;
+}
+*{
+    margin: 0px;
+}
