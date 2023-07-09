@@ -1,0 +1,11 @@
+label{
+    display: block;
+    padding-bottom: 20px;
+    /* margin-bottom: 20px; */
+}
+/* fieldset>label{
+    display: inline;
+} */
+#block label{
+    display: inline;
+}
